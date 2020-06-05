@@ -1,0 +1,35 @@
+{
+  "name": "install-agent",
+  "version": "0.1.0",
+  "description": "adds a new Agent instance and sets up permissions",
+  "license": "MIT",
+  "repository": "",
+  "main": "dist/index.js",
+  "author": {
+    "name": "aaron",
+    "email": "aaron@DAOresear.ch",
+    "url": "https://github.com/pythonpete32"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "node ./src/index"
+  },
+  "keywords": [
+    "Aragon",
+    "DAO",
+    "Ethereum"
+  ],
+  "dependencies": {
+    "@aragon/test-helpers": "^2.1.0",
+    "@aragon/toolkit": "0.0.7-beta.1",
+    "bignumber.js": "9.0.0",
+    "ethereumjs-abi": "^0.6.8",
+    "ethers": "^4.0.47",
+    "web3": "^1.2.5-rc.0",
+    "web3-utils": "^1.2.7"
+  },
+  "devDependencies": {
+  }
+}
