@@ -162,10 +162,10 @@ async function firstTx() {
     )
     console.log('\n================================================================================')
     console.log(`from:     ${tx.transactionPath.from}`)
-    console.log(`to:       ${tx.transactionPath.to}`)
+    console.log(`to:       ${tx.transactionPath.to}` )
     console.log(`Tx Hash:  ${tx.receipt.transactionHash}`)
     console.log('================================================================================\n')
-    console.log(`${tx.transactionPath.description}\n`)
+
 }
 
 const main = async () => {

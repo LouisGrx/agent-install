@@ -1,5 +1,5 @@
 {
-  "name": "install-agent",
+  "name": "agent-install",
   "version": "0.1.0",
   "description": "adds a new Agent instance and sets up permissions",
   "license": "MIT",
@@ -30,6 +30,5 @@
     "web3": "^1.2.5-rc.0",
     "web3-utils": "^1.2.7"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
